@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEO DIGITAL LTD - Công Ty Quảng Cáo Hàng Đầu Singapore</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1a237e, #283593);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .hero {
+            background-color: #f5f5f5;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #1a237e;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #555;
+        }
+        
+        .services {
+            padding: 4rem 0;
+            background-color: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            color: #1a237e;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background-color: #f9f9f9;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-card h3 {
+            color: #1a237e;
+            margin-bottom: 1rem;
+        }
+        
+        .about {
+            padding: 4rem 0;
+            background-color: #f5f5f5;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        
+        .about-image img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact {
+            padding: 4rem 0;
+            background-color: white;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .contact-card {
+            padding: 1.5rem;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .contact-card h3 {
+            color: #1a237e;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background-color: #1a237e;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .about-content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">NEO DIGITAL</div>
+            <div class="tagline">Giải Pháp Quảng Cáo Số Tối Ưu</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Chào Mừng Đến Với NEO DIGITAL LTD</h1>
+            <p>Công ty quảng cáo hàng đầu Singapore với những giải pháp sáng tạo và hiệu quả cho doanh nghiệp của bạn</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Dịch Vụ Của Chúng Tôi</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Quảng Cáo Kỹ Thuật Số</h3>
+                    <p>Chiến dịch quảng cáo kỹ thuật số tối ưu trên các nền tảng như Google, Facebook, Instagram, và LinkedIn để tiếp cận đúng đối tượng mục tiêu.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Tiếp Thị Nội Dung</h3>
+                    <p>Xây dựng và phân phối nội dung giá trị, thu hút khách hàng tiềm năng thông qua blog, video, infographic và các kênh truyền thông khác.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Tối Ưu Hóa SEO</h3>
+                    <p>Tăng thứ hạng tìm kiếm tự nhiên của trang web để thu hút lượng truy cập chất lượng và tăng khả năng chuyển đổi.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Thiết Kế Thương Hiệu</h3>
+                    <p>Xây dựng và phát triển thương hiệu mạnh mẽ, khác biệt trong thị trường cạnh tranh với định vị thương hiệu rõ ràng.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Phát Triển Website</h3>
+                    <p>Thiết kế và phát triển trang web hiện đại, tương thích với thiết bị di động và tối ưu hóa trải nghiệm người dùng.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Phân Tích Dữ Liệu</h3>
+                    <p>Thu thập và phân tích dữ liệu để đưa ra quyết định dựa trên thông tin chính xác, tối ưu hiệu suất chiến dịch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">Về Chúng Tôi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>NEO DIGITAL LTD là công ty quảng cáo số hàng đầu tại Singapore với nhiều năm kinh nghiệm trong ngành. Chúng tôi tự hào cung cấp các giải pháp quảng cáo hiệu quả, sáng tạo và đúng đối tượng cho các doanh nghiệp từ nhỏ đến lớn.</p>
+                    <p>Đội ngũ chuyên gia của chúng tôi luôn cập nhật với xu hướng mới nhất trong lĩnh vực quảng cáo số, đảm bảo mang đến cho khách hàng những chiến lược phù hợp nhất với mục tiêu kinh doanh và ngân sách.</p>
+                    <p>Chúng tôi tin rằng mỗi doanh nghiệp đều có câu chuyện và giá trị riêng, và nhiệm vụ của chúng tôi là kể những câu chuyện đó một cách hấp dẫn đến đúng khán giả.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/500x300" alt="Đội ngũ NEO DIGITAL">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Liên Hệ</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <h3>Địa Chỉ</h3>
+                    <p>123 Orchard Road, #05-01</p>
+                    <p>Singapore 238893</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p>info@neodigital.sg</p>
+                    <p>support@neodigital.sg</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Điện Thoại</h3>
+                    <p>+65 6123 4567</p>
+                    <p>+65 8765 4321</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 NEO DIGITAL LTD. Tất cả các quyền được bảo lưu.</p>
+                <p>Mã số đăng ký kinh doanh: 202012345X</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
